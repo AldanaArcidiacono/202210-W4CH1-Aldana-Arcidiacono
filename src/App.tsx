@@ -4,11 +4,12 @@ import { Gentleman } from "./components/gentleman";
 import { Info } from "./components/info";
 
 function App() {
+    const title = "The pointing gentlemen";
     return (
         <div className="App">
             <div className="container">
                 <header className="main-header">
-                    <h1 className="main-title">The pointing gentlemen</h1>
+                    <h1 className="main-title">{title}</h1>
                 </header>
                 <Info></Info>
                 <main className="main">
