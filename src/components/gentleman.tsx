@@ -1,3 +1,5 @@
+import { IMen, pointingMen } from "../models/data";
+
 export function Gentleman() {
     return (
         <li className="gentleman">
