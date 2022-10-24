@@ -1,4 +1,4 @@
-export function SectionCounter() {
+export function Info() {
     //  const initialState: IState = { counter: 0 };
     //  const [state, setState] = useState(initialState);
 

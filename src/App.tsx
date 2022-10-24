@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import { Header } from "./components/header";
-import { SectionCounter } from "./components/section.counter";
+import { Info } from "./components/info";
 
 function App() {
     return (
         <div className="App">
             <div className="container">
                 <Header></Header>
-                <SectionCounter></SectionCounter>
+                <Info></Info>
                 <main className="main">
                     <ul className="gentlemen">
                         <li className="gentleman">
