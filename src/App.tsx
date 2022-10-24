@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
-import { Header } from "./components/header";
 import { Info } from "./components/info";
 
 function App() {
     return (
         <div className="App">
             <div className="container">
-                <Header></Header>
+                <header className="main-header">
+                    <h1 className="main-title">The pointing gentlemen</h1>
+                </header>
                 <Info></Info>
                 <main className="main">
                     <ul className="gentlemen">
