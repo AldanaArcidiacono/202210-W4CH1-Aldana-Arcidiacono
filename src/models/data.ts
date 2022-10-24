@@ -30,3 +30,14 @@ export const pointingMen = [
         selected: true,
     },
 ];
+
+export interface IMen {
+    id: number;
+    name: string;
+    status: string;
+    profession: string;
+    twitter: string;
+    picture: string;
+    alternativeText: string;
+    selected: boolean;
+}
